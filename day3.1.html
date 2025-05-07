@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        form{
+            width: 60%;
+            margin: auto;
+            margin-left: 20%;
+            padding: 20px;
+            border: 1px solid rgb(4, 4, 87);
+            border-radius: 5px;
+            background-color: rgb(4, 4, 87);
+            text-align: center;
+             align-items: center;
+             flex-direction: column;
+        }
+        label{
+            display: block;
+            font-size: 20px;
+            color: white;
+            padding: 10px;
+
+        }
+        input{
+            color: black;
+            background-color: rgb(230, 230, 210);
+        }
+        textarea{
+            color: black;
+            background-color: rgb(247, 239, 239);
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="name">First Name</label><br>
+        <br><input type="text"id="name" placeholder="name"><br>
+        <label for="number">Mobile Number</label><br>
+        <input type="number"id="number" placeholder="mobile number"><br>
+        <label for="e-mail">E-mail</label><br>
+        <input type=" text"id="e-mail" placeholder="e-mail"><br>
+        <label for="date">Date</label><br>
+        <input type="datetime"id="date" placeholder="01/01/2025,12:30"><br>
+        <label for="upload resume">Upload Resume</label><br>
+        <input type="file"id="resume"placeholder="Choose file"><br>
+        <label for="comment">Comment</label><br>
+        <input type="comment"id="comment"placeholder="please add additional comment if you have">
+        <label for="submit"id="submit"></label><br>
+        <input type="submit"value="submit"><br>
+
+
+    </form>
+</body>
+</html>

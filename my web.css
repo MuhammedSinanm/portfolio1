@@ -1,0 +1,423 @@
+.left-top{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-left: 20px;
+    font-optical-sizing:auto;
+    font-family: sans-serif;
+    color: white;
+    font-size:larger;
+} 
+.row1{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    margin-left:365px;
+    position: relative;
+    column-gap: 20px;
+    font-size: large;
+    font-family: sans-serif;
+    color:rgba(255, 255, 255, 0.55);
+    
+}
+body{
+   /* background-image:url(fff.png); */
+   margin: 0;
+   padding: 0;
+  
+}
+.row{
+    color:rgba(255, 255, 255, 0.55);
+    text-decoration: none;
+   
+}
+img{
+    width: 100px;
+    height: 100px;
+    display:grid;
+    justify-self:center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+#img{
+    display: grid;
+    justify-self: center;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow:0 0 10PX 9PX rgb(37, 37, 201);
+
+}
+#img:hover{
+    box-shadow:0 0 30px 18px rgb(51, 51, 216);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.row:hover{
+    color:rgb(66, 66, 212);
+    text-decoration: underline;
+}
+.second-cont{
+    color: aliceblue;
+    font-family:  "Quicksand", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-left: 30px;
+    margin-top: 8px;
+    font-size:14px;
+}
+.third-cont{
+    color: rgb(255, 255, 255);
+    font-family:  "Quicksand", sans-serif;
+    display: flex;
+    justify-content:center;
+    font-size: 150%;
+    font-weight: bold;
+}
+.third-cont p{
+    margin:0;
+    
+}
+.titl{
+    font-size: calc(1.3rem + .6vw);
+    color:rgb(51, 51, 216) ;
+    display: flex;
+    justify-content: center;
+    font-size: 220%;
+    font-family:  "Quicksand", sans-serif;
+    font-weight:900px;
+    line-height: 40px;
+
+}
+.pic{
+    color:rgb(51, 51, 216) ;
+    display: grid;
+    justify-content: center;
+    font-size:small;
+    line-height:60px ;
+}
+.icons{
+    display: flex;
+    justify-content:space-around;
+    width: 160px;
+    margin-left: 50px;
+
+}
+.icons i{
+    color: rgb(22, 107, 254);
+    font-size:25px;
+   
+}
+.about{
+    color: rgb(22, 107, 254);
+    display: flex;
+    justify-content:space-around;
+    width: 280px;
+    margin-left:355px;
+    padding:10px;
+}
+.hire{
+    border-radius: 20px;
+    padding: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: rgb(22, 107, 254);
+    color: rgb(22, 107, 254);
+    background-color: transparent;
+    font-size:medium;
+}
+.contact{
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: rgb(22, 107, 254);
+    color: rgb(22, 107, 254);
+    background-color: transparent;
+    font-size: large;
+}
+.hire:hover{
+    background-color:rgb(43, 100, 166);
+    color: white;
+}
+.contact:hover{
+    background-color:rgb(43, 100, 166);
+    color: white;
+}
+.name{
+    font-size: larger;
+}
+.hy{
+    color: white;
+    display: grid;
+    justify-content: center;
+    padding:37.3px;
+    font-family: sans-serif;
+}
+.hn{
+    display: grid;
+    justify-content: center;
+}
+#linked:hover{
+    box-shadow:0 0 40px 15px rgb(51, 51, 216);
+    background-color:rgb(51, 51, 216);
+    color:rgb(0, 0, 0);
+    height:22px;
+    width: 22px;
+    object-fit: cover;
+}
+#git:hover{
+    box-shadow:0 0 40px 15px rgb(51, 51, 216);
+    background-color:rgb(51, 51, 216);
+    color:rgb(0, 0, 0);
+    height:25px;
+    width: 25px;
+    object-fit: cover;
+    border-radius: 30px;
+}#insta:hover{
+    box-shadow:0 0 40px 15px rgb(51, 51, 216);
+    background-color:rgb(51, 51, 216);
+    color:rgb(0, 0, 0);
+    height:23px;
+    width: 23px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.hy p{
+    display: flex;
+
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: rgb(255, 255, 255);
+    line-height: 200px;
+
+}
+.skills-bar{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    gap: 20px;
+    max-width: 1000%;
+    justify-content: space-between;
+    line-height: 30px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 490px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+
+}
+.skill{
+    margin-left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+}
+.progress-bar{
+    color: rgb(0, 0, 0);
+    background-color: rgb(220, 211, 211);
+    border-radius: 20px;
+    height:20px;
+    width: 180%;
+    
+}
+.progress-html{
+    color: rgb(0, 0, 0);
+    /* background-color: orangered; */
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    border-radius: 20px;
+    height:20px;
+    width: 85%;
+    background-color: rgb(255, 94, 0);
+  
+
+
+}
+.progress-css{
+    color: rgb(0, 0, 0);
+    /* background-color: orangered; */
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    border-radius: 20px;
+    height:20px;
+    width: 75%;
+    background-color: rgb(0, 106, 255);
+}
+.progress-js{
+    color: rgb(0, 0, 0);
+    /* background-color: orangered; */
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    background-color: rgb(255, 238, 0);
+    width: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+    height:20px;
+    width: 50%;
+    
+}
+#icon-html{
+    color: rgb(255, 94, 0);
+    font-size: x-large;
+}
+#icon-css{
+    color: rgb(0, 106, 255);
+    font-size: x-large;
+}
+#icon-js{
+    color: rgb(255, 238, 0);
+    font-size: x-large;
+}
+#imgpro{
+    border-radius: 0;
+}
+.nav{
+    position: fixed;
+    /* --bs-bg-opacity: 1; */
+    background-color: transparent !important;
+    background-color: blue;
+}
+.image-1{
+    border-radius: 0;
+    height: 230px;
+    width: 180px;
+    border-radius: 10px;
+}
+.project1-card{
+    background-color: rgb(255, 255, 255);
+    height:290px;
+    width: 200px;
+    display: grid;
+    justify-content: center;
+    align-items:center;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-top: -50px;
+    
+}
+.project2-card{
+    background-color: rgb(255, 255, 255);
+    height:290px;
+    width: 190px;
+    display: grid;
+    justify-content: center;
+    align-items:center;
+    border-radius: 10px;
+    margin-left:350px;
+    margin-top: -320px;
+    margin-bottom: 3px;
+}
+.image-2{
+    height: 90px;
+    width: 190px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+.project3-card{
+    background-color: rgb(255, 255, 255);
+    height:290px;
+    width: 210px;
+    display: grid;
+    justify-content: center;
+    align-items:center;
+    border-radius: 10px;
+    margin-left:650px;
+    margin-top: -290px;
+    margin-bottom: 30px;
+}
+.image-3{
+    border-radius: 0;
+    height: 130px;
+    width: 200px;
+    border-radius: 10px;
+}
+.formgroup{
+    display: grid;
+    justify-content: center;
+    margin-left: 48%;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -300px;
+}
+.form-condrol{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 5px;
+    background-color:rgba(9, 9, 121, 0.8) ;
+    color: aliceblue;
+    border-color: rgb(15, 151, 151);
+}
+.namelast{
+    margin-left: 0px;
+    margin-right: 100px;
+    width: 185px;
+    
+}
+.email{
+    margin-left: 215px;
+    margin-top: -77px;
+    width: 180px;
+}
+.number{
+    width:400px;
+    margin-right: 200px; 
+}
+.Address{
+    width:400px;
+    margin-right: 200px; 
+}
+.subject{
+    width:400px;
+    margin-right: 200px;
+}
+.message{
+    width:400px;
+    margin-right: 200px;
+    
+}
+.maps{
+    height: 230px;
+    width: 300px;
+    margin-left: 35px;
+    line-height: 30px;
+    padding: 40px;
+    color: aliceblue;
+
+}
+.gap{
+    display: grid;
+}
+.gap:hover{
+    box-shadow: 2px 2px 30px cornsilk;
+    scale: 1.1;
+}
+.project1-card:hover{
+    box-shadow: 2px 2px 30px cornsilk;
+    scale: 1.1;
+}
+.project2-card:hover{
+    box-shadow: 2px 2px 30px cornsilk;
+    scale: 1.1;
+}
+.project3-card:hover{
+    box-shadow: 1px 1px 20px cornsilk;
+    scale: 1.1;
+}
+html{
+    scroll-behavior: smooth;
+}
